@@ -1,0 +1,75 @@
+.modal input {
+  padding: 0.5rem;
+  margin: 1rem;
+  width: 90%;
+}
+.booking-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 1rem;
+}
+.booking-card img {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
+.leftside,.rightside{
+  margin: 1rem;
+}
+.leftside {
+  background-color: #141414;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+}
+.leftside h5 {
+  color: #fff;
+  padding: 1rem;
+  font-family: var(--font-name);
+}
+.leftside p {
+  color: rgb(192, 190, 190);
+  padding: 1rem;
+  font-family: var(--font-name);
+  cursor: pointer;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+.new-feature {
+  margin: 1rem;
+  padding-top: 1rem;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding-bottom: 2rem;
+}
+.middleside {
+  margin-bottom: 3rem;
+  box-shadow: rgba(43, 43, 43, 0.2) 4px 18px 50px 10px;
+  border-radius: 15px;
+}
+.rightside {
+  position: relative;
+  margin-bottom: 3rem;
+  border-radius: 15px;
+  box-shadow: rgba(43, 43, 43, 0.2) 4px 18px 50px 10px;
+}
+
+.middleside h5 {
+  font-family: var(--font-name);
+  padding: 1rem;
+}
+.rightside h5 {
+  font-family: var(--font-name);
+  padding: 1rem;
+}
+.rightside .modal-btn {
+  margin: 2rem;
+}
+.instructions {
+  padding: 1rem;
+}
+.tabs {
+  font-weight: 600;
+  color: var(--primary-color) !important;
+}

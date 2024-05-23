@@ -1,0 +1,120 @@
+.property-content img {
+  width: 100%;
+  height: 500px;
+  border-radius: 0.5rem;
+  margin-bottom: 2.5rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+.property-info {
+  border-radius: 0.5rem;
+  border: 1px solid rgb(228, 222, 222);
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+.property-info h2 {
+  font-size: 1.5rem;
+}
+.price {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+.property-info span {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-style: 1rem;
+  color: var(--text-color);
+}
+.property-details .det-icon {
+  color: var(--primary-color);
+}
+.property-details {
+  column-gap: 2.5rem;
+  align-items: center;
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+.property-info h5 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+.property-info p {
+  line-height: 30px;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+.rating-group span {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.rating-group span:hover {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+.property-details-reviews h4 {
+  margin-bottom: 3rem;
+}
+.review-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 2rem;
+  border: 1px solid var(--primary-color);
+}
+.review-input input {
+  width: 100%;
+  padding: 0.5rem 0;
+  border: none;
+}
+.review-input input:focus {
+  border: none;
+  outline: none;
+}
+.review-item {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  margin-bottom: 1rem;
+}
+.review-item img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.user-review h5 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.review-item h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-color);
+}
+.review-item span {
+  color: var(--primary-color);
+}
+.other-images img{
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  padding: 0.2rem;
+  object-fit: cover;
+}
+.carousel-image{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}

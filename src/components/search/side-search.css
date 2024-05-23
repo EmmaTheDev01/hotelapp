@@ -1,0 +1,29 @@
+.side-search{
+    position: relative;
+    color: var(--text-color);
+    margin-top: 1rem;
+    background-color: #fff;
+    border: 1px solid rgb(212, 206, 206);
+}
+.search-bottom{
+    padding: 1rem;
+    margin: 0;
+}
+.search-bottom span{
+    display: block;
+    margin-top: 1rem;
+}
+.search-form-side{
+    padding: 1rem;
+    border: none;
+}
+.search-form-side input{
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   border-bottom: 1px solid var(--text-color);
+   margin-top: 1rem;
+}
+.search-form-side input:focus{
+    outline: none;
+ }

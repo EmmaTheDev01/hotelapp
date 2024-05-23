@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Queen Elisabeth Golf Appartment",
+    "city": "Kigali",
+    "address": "Nyarutarama",
+    "distance": 300,
+    "price": 99,
+    "guestNumber": 10,
+    "desc": "this is the description",
+    "reviews": [],
+
+    "photo": "/tour-images/1.jpg",
+    "featured": true
+  },
+  {
+    "title": "Rose Gardem",
+    "city": "Kigali",
+    "address": "Nyarutarama",
+    "distance": 400,
+    "price": 99,
+    "guestNumber": 8,
+    "desc": "this is the description",
+    "reviews": [],
+    "photo": "/hotel-images/1.jpg",
+    "featured": true
+  },
+  {
+    "title": "Phoenix Appartment",
+    "city": "Kigali",
+    "address": "Kanombe",
+    "distance": 500,
+    "price": 99,
+    "guestNumber": 8,
+    "desc": "this is the description",
+    "reviews": [],
+
+    "photo": "/hotel-images/1.jpg",
+    "featured": true
+  }
+]

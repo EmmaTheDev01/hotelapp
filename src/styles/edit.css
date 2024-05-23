@@ -1,0 +1,63 @@
+.user-menu ul{
+    display: block;
+    position: relative;
+}
+.user-menu a{
+    text-decoration: none;
+    padding: 1rem;
+    font-family: var(--font-name);
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+.user-menu a:hover{
+   color: var(--primary-color);
+}
+.profile-card{
+    font-family:  var(--font-name);
+    text-align: center;
+    padding: 3rem;
+    box-shadow: rgba(189, 189, 189, 0.2) 4px 18px 50px 10px;
+    border-radius: 5px;
+
+}
+.profile-card ul{
+    padding: 1rem;
+}
+.profile-card li{
+    margin: 1rem;
+}
+.user-info-form{
+  display: block;
+}
+.avatar{
+    padding: 1rem;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+.user-info-form input{
+    padding: .5rem;
+    margin: 1rem;
+    border: 1px solid var(--secondary-color);
+    width: 100%;
+    border-radius: 5px;
+    color: var(--text-color);
+}
+.user-info-form input:focus{
+    outline: none;
+}
+.edit_button{
+    padding: .5rem;
+    margin: 1rem;
+    width: 100%;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    border: none;
+}
+.edit_button:hover{
+    background-color: #000;
+}

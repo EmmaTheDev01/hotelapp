@@ -1,0 +1,44 @@
+.not-found{
+    padding: 4rem;
+    text-align: center;
+}
+.not-found h1{
+    font-size: 9rem;
+    font-weight: 900;
+    color: var(--secondary-color);
+}
+.not-found h2{
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--heading-color);
+}
+.not-found p{
+    color: var(--text-color);
+    font-family: var(--font-name);
+    font-size: 1.2rem;
+}
+.not-found h5{
+    color: var(--text-color);
+    font-family: var(--font-name);
+    font-size: 1.2rem;
+}
+.not-found ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.not-found ul a{
+   text-decoration: none;
+   color: var(--primary-color);
+   
+}
+.not-found ul a:hover{
+   
+    color: var(--heading-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+ }
+.not-found li{
+    margin: .5rem;
+    cursor: pointer;
+}

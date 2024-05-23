@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://querycon.onrender.com/api/v1';

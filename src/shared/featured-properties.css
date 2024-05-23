@@ -1,0 +1,82 @@
+.featured-property-card{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+    padding: 1rem;
+    width: 300px;
+    height: 340px;
+    margin: 2rem;
+    overflow: hidden;
+}
+.featured-property-img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.featured-property-img img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+.featured-property-img span{
+    height: max-content;
+    width: max-content;
+    position: absolute;
+    left: 0;
+    top: 109px;
+    z-index: 10;
+    background-color: var(--secondary-color);
+    color: #fff;
+    font-size: .8rem;
+    padding: 0.3rem;
+    font-weight: 600;
+    border-radius: 0px 3px 0px 3px;
+}
+.featured-card-top{
+    padding: 0.1rem;
+}
+.featured-card-top span{
+    font-size: 0.9rem;
+    font-weight: 600;
+
+}
+.featured-card-top span .featured-icon{
+    color: var(--primary-color);
+    font-size:.8rem;
+}
+.featured-property-title{
+    width: 220px;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.featured-property-title a{
+    text-decoration: none;
+    color: var(--heading-color);
+}
+.featured-property-title a:hover{
+  
+    color: var(--secondary-color);
+}
+.featured-card-bottom h5{
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+.featured-card-bottom h5 span{
+    color: var(--text-color);
+    font-size: .9rem;
+}
+.featured-reserve-btn{
+    margin-top: 1rem;
+    background-color: var(--primary-color) !important;
+}
+.featured-reserve-btn:hover{
+    margin-top: 1rem;
+    background-color: var(--secondary-color) !important;
+}
+.featured-reserve-btn a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}

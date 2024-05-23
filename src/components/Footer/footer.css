@@ -1,0 +1,191 @@
+.subscribe-section{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.contents{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    padding: 2rem;
+    display: block;
+}
+.contents h2{
+    font-style: 2rem;
+    color:#fff;
+}
+.contents p{
+    font-size: 1.1rem;
+    color: #fff;
+}
+.subscribe-inputs{
+    background-color: #fff;
+    padding: .5rem;
+    width: 100%;
+    border: 1px solid var(--heading-color);
+    border: none;
+    border-radius: 50px;
+}
+.subscribe-inputs input{
+    border: none;
+    width: 73%;
+    padding: .5rem;
+    color: var(--text-color);
+    border: none;
+}
+.subscribe-inputs input:focus{
+   outline: none;
+}
+.subscribe-inputs button{
+    padding: .5rem;
+    border: none;
+    width: 8rem;
+    background-color: var(--primary-color) !important;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer-bottom{
+    width: 100%;
+    padding: 1rem;
+}
+.footer-bottom p{
+  display: block;
+}
+.footer-links{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 920px){
+
+    .subscribe-section{
+        background-color: var(--primary-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 0.5rem;
+    }
+    .contents p{
+        font-size: 1rem;
+        color: #fff;
+    }
+    .subscribe-inputs input{
+        border: none;
+        width: 100%;
+        padding: .5rem;
+        color: var(--text-color);
+        border: none;
+    }
+    .subscribe-inputs button{
+        border: none;
+        margin-left: 2rem;
+    }
+    .subscribe-inputs{
+        background-color: #fff;
+        padding: .5rem;
+        border: none;
+        border-radius: 50px;
+    }
+    
+}
+@media screen and (max-width:600px){
+
+    .subscribe-section{
+        background-color: var(--primary-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 0.5rem;
+    }
+    .contents p{
+        font-size: 1rem;
+        color: #fff;
+    }
+    .subscribe-inputs input{
+        border: none;
+        width: 60%;
+        padding: .5rem;
+        color: var(--text-color);
+        border: none;
+    }
+    .subscribe-inputs{
+        background-color: #fff;
+        padding: .5rem;
+        width: 100%;
+        border: none;
+        border-radius: 50px;
+    }
+}
+@media screen and (max-width:375px) {
+    .subscribe-inputs input{
+        border: none;
+        width: 56%;
+        padding: .5rem;
+        color: var(--text-color);
+        border: none;
+    }
+}
+@media screen and (max-width:360px) {
+    .subscribe-inputs input{
+        border: none;
+        width: 53%;
+        padding: .5rem;
+        color: var(--text-color);
+        border: none;
+    }
+}
+@media screen and (min-width:414px) {
+    .subscribe-inputs input{
+        border: none;
+        width: 60%;
+        padding: .5rem;
+        color: var(--text-color);
+        border: none;
+    }
+}
+
+@media screen and (min-width:390px) {
+    .subscribe-inputs input{
+        border: none;
+        width: 58%;
+        padding: .5rem;
+        color: var(--text-color);
+        border: none;
+    }
+}
+@media screen and (min-width:412px) {
+    .subscribe-inputs input{
+        border: none;
+        width: 61%;
+        padding: .5rem;
+        color: var(--text-color);
+        border: none;
+    }
+}
+@media screen and (max-width:280px) {
+    .subscribe-inputs input{
+        border: none;
+        width: 60%;
+        padding: .5rem;
+        color: var(--text-color);
+        border: none;
+    }
+    
+.subscribe-inputs button{
+    padding: .5rem;
+    border: none;
+    font-size: .8rem;
+    width: 5rem;
+    background-color: var(--primary-color) !important;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 500;
+}
+}

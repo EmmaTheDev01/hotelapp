@@ -1,0 +1,27 @@
+.support{
+    margin-top: 4rem;
+    box-shadow: rgba(43, 43, 43, 0.2) 4px 18px 50px 10px;
+    padding: 2rem;
+    position: sticky;
+    width: 500px;
+}
+.support p{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.user-guide{
+    margin-top: 4rem;
+    padding: 1rem;
+    box-shadow: rgba(43, 43, 43, 0.2) 4px 18px 50px 10px;
+}
+.user-guide h3,h5{
+    margin: 1rem;
+}
+.user-guide p{
+    color: var(--text-color);
+    padding: 1rem;
+    font-family: var(--font-name);
+    font-size: .9rem;
+}
